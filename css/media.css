@@ -1,7 +1,6 @@
 @media (max-width: 826px) {
     * {
         flex-direction: column;
-        text-align: center;
         margin: auto;
         max-width: 100%;
     }
@@ -15,14 +14,15 @@
         width: 100%;
         margin-bottom: 10px;
     }
-    #navigation {
-        /* height: fit-content; */
+    #middle-10 {
+        padding: 24px;
+        padding-bottom: 0px;
+    }
+    #middle-11 {
+        padding: 24px;
     }
     .navbar {
         padding: 0 0;
-    }
-    #main-nav {
-        /* height: fit-content; */
     }
     #main-nav .right {
         display: none;
@@ -88,13 +88,12 @@
     }
     #ending-1 .sub-section {
         min-width: 30%;
+        padding: 0;
+        margin-top: 0;
     }
 }
 
 @media (max-width: 424px) {
-    .menu a {
-        /* font-size: 50%; */
-    }
     .menus {
         line-height: 17px;
     }
