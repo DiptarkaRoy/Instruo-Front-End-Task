@@ -1,0 +1,183 @@
+/* Global-Navigation Starts  */
+
+#navigation {
+    background-color: #F4F5F7;
+    position: relative;
+    height: 72px;
+}
+
+.navbar {
+    height: inherit;
+    /* line-height: 72px; */
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.left {
+    float: left;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    width: 193px;
+    margin-right: 12px;
+    align-items: center;
+}
+
+.menus {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 72px;
+}
+
+.menu {
+    height: inherit;
+    align-items: center;
+}
+
+.menu a {
+    color: #42526E;
+    padding: 4px 20px 4px 14px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+#navigation .left .menu a::after {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iOXB4IiBoZWlnaHQ9IjVweCIgdmlld0JveD0iMCAwIDkgNSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDYuMiAoNDQ0OTYpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPlBhZ2UgMTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJOYXZpZ2F0aW9uIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iV0FDLURlc2t0b3AtbWVudS0tLXByb2R1Y3RzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDQ1LjAwMDAwMCwgLTQzLjAwMDAwMCkiIHN0cm9rZT0iIzAwNTJDQyI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC05IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNS4wMDAwMDAsIDI4LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxOS4wMDAwMDAsIDAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPHBvbHlsaW5lIGlkPSJQYWdlLTEiIHBvaW50cz0iMTk5LjE3MzkxMyAxNS41NjUyMTc0IDE5NS4xNzM5MTMgMTkuMjAxNTgxIDE5MS4xNzM5MTMgMTUuNTY1MjE3NCI+PC9wb2x5bGluZT4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+) no-repeat;
+    content: "";
+    display: inline-block;
+    height: 10px;
+    margin-left: 6px;
+    position: relative;
+    top: 4px;
+    width: 10px;
+}
+
+.menu a:hover {
+    background-color: #DFE1E5;
+}
+
+.right {
+    align-items: center;
+    display: flex;
+    float: right;
+    min-height: 72px;
+    position: relative;
+}
+
+#buy-now a {
+    color: #0052CC;
+}
+
+#buy-now a:hover {
+    background-color: #e6e8eb;
+}
+
+#search-box {
+    width: 30px;
+}
+
+#search-box a {
+    color: #88909c;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 0 4px 0 4px;
+}
+
+#search-box a:hover {
+    background-color: #DFE1E5;
+}
+
+#login a {
+    border-left: 1px solid rgb(80, 90, 125, 0.08);
+    border-radius: 0;
+    margin-left: 25px;
+}
+
+#login a:hover {
+    text-decoration: underline;
+    background-color: #F4F5F7;
+}
+
+/* Global-Navigation Ends  */
+
+/* Sticky-Navigation Starts  */
+
+#main-nav {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    box-shadow: 0 6px 10px -3px rgba(0, 0, 0, .25);
+    z-index: 1;
+    background: white;
+}
+
+#main-menu {
+    margin-left: 20px;
+}
+
+#main-menu .menu a {
+    height: inherit;
+    color: #0052CC;
+    font-weight: 400;
+    box-sizing: border-box;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0 20px;
+}
+
+#main-menu .menu a:hover {
+    background-color: inherit;
+    border-bottom: 3px solid #DFE1E5;
+    border-radius: unset;
+}
+
+#main-menu .menu a:after {
+    background: none;
+}
+
+#main-nav .right .menu {
+    height: 30px;
+}
+
+#main-nav .right .menu a:hover {
+    background-color: #DFE1E5 !important;
+}
+
+#free-btn {
+    color: #0052CC;
+    border: 1px solid #0052CC;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-weight: 500;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#free-btn2 {
+    color: #0052CC;
+    border: 1px solid #0052CC;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-weight: 500;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+/* Sticky-Navigation Ends  */

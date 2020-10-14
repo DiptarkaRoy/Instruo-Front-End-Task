@@ -1,0 +1,94 @@
+.global-container {
+    padding: 16px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    align-self: center;
+    margin-left: 8.33%;
+    padding: 16px;
+    min-height: 1px;
+    position: relative;
+}
+
+.component-heading {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.component-heading h1 {
+    font-size: 2.75rem;
+    line-height: 1.18181818;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.heading-btn {
+    padding-top: 16px;
+}
+
+.heading-btn a {
+    border: 1px solid #0052CC;
+    border-radius: 3px;
+    padding: 8px 15px;
+    font-weight: 500;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    color: white;
+    background: #0052CC;
+}
+
+.heading-btn a:hover {
+    background: #0047B3;
+    border-color: #0047B3;
+}
+
+.image {
+    align-self: flex-end;
+}
+
+.component-image {
+    height: 100%;
+    width: 100%;
+}
+
+.component-image img {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+
+.content {
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 32px;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+}
+
+.content h2 {
+    margin-bottom: 24px;
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+.content p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 1.4;
+    color: #42526E;
+}

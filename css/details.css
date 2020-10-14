@@ -1,0 +1,48 @@
+#details-1 .container {
+    padding-top: 16px;
+    padding-bottom: 64px;
+}
+
+.container h3 {
+    font-size: 1.5rem;
+    line-height: 1.33333333;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+#details-1 .heading {
+    margin-left: 0.33%;
+}
+
+.details .heading {
+    text-align: left;
+}
+
+.details .component-heading {
+    padding-bottom: 32px;
+}
+
+.details img {
+    border-radius: 6px;
+    box-shadow: 6px 30px 30px rgba(23, 43, 77, .1);
+}
+
+#details-2 .container {
+    padding-top: 16px;
+    padding-bottom: 96px;
+}
+
+#details-3 {
+    padding-bottom: 64px;
+}
+
+#details-3 .container {
+    padding-top: 96px;
+    padding-bottom: 16px;
+}
+#details-3 .menu{
+    margin-top: 32px;
+}
+#details-3 .menu a{
+    padding: 10px;
+}
